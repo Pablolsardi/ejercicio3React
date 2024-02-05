@@ -1,10 +1,9 @@
-import { useState } from 'react'
+import Saludo from './Saludo'
 
 function App() {
-  
   return (
     <>
-     
+      <Saludo particularizacion='My Friend'></Saludo>
     </>
   )
 }
